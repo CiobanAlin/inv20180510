@@ -43,13 +43,13 @@ section {
   margin: auto;
   padding: 0 24px;
 }
-nav {
+.navigation {
   background-color: blue;
 }
 aside {
   width: 100%;
 }
-footer {
+.footer {
   background-color: #323232;
 }
 /* classes */

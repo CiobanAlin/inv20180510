@@ -1,3 +1,7 @@
+
+
+
+// file imports
 window.onload = function () {
   var elements = document.getElementsByTagName('*'),
     i;
@@ -12,8 +16,6 @@ window.onload = function () {
       status = 0;
 
     xmlhttp.onreadystatechange = function () {
-			/* if we are on a local protocol, and we have response text, we'll assume
- *  				things were sucessful */
       if (xmlhttp.readyState == 4) {
         status = xmlhttp.status;
       }
