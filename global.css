@@ -1,0 +1,191 @@
+/* test */
+/* fonts */
+h1 {
+  font-size: 75px;
+}
+h2 {
+  font-size: 46px;
+}
+p {
+  font-size: 22px;
+}
+/* general */
+html{
+  height: fit-content;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: fit-content;
+}
+iframe{
+  width: 100%;
+  border: 0;
+  height: fit-content;
+}
+iframe > *{
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+object{
+  width: 100%;
+}
+object > *{
+  overflow: hidden;
+}
+a {
+  display: block;
+}
+section {
+  max-width: 1164px;
+  margin: auto;
+  padding: 0 24px;
+}
+nav {
+  background-color: blue;
+}
+aside {
+  width: 100%;
+}
+footer {
+  background-color: #323232;
+}
+/* classes */
+.menuBody {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menuBody * {
+  color: white;
+  text-decoration: none;
+}
+.logoMenuFooter {
+  width: 150px;
+  height: 50px;
+  background-color: white;
+}
+.buttonsMenuFooter {
+  display: flex;
+  align-items: center;
+}
+.buttonsMenuFooter > a {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 45px 15px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.languageSelect,
+.logoSocial {
+  padding: 0 27px;
+}
+.languageSelect > li {
+  list-style-type: none;
+}
+.heroHome {
+  background-color: brown;
+}
+.heroHome * {
+  color: white;
+  text-decoration: none;
+}
+.heroHome > section {
+  padding-top: calc(111px + 180px);
+  padding-bottom: 180px;
+}
+.titleDesctiption {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+.titleDesctiption * {
+  text-align: center;
+}
+.titleDesctiption h2 {
+  color: black;
+}
+.titleDesctiption p {
+  color: gray;
+  max-width: 680px;
+  margin: auto;
+}
+.imageCardBody {
+  display: block;
+  width: 100%;
+  padding-top: 55%;
+  position: relative;
+}
+.imageCard {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: brown;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.imageThumbnailBody {
+  display: block;
+  /* max-width: 325px; */
+  width: 100%;
+  padding-top: 117%;
+  position: relative;
+}
+.imageThumbnail {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: brown;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 10px;
+}
+.rowThumbnail {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 30px 0;
+}
+.rowThumbnail > aside {
+  padding: 30px;
+}
+.group {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logoPartners > div {
+  width: calc(100% / 4);
+  min-width: 100px;
+  padding-top: calc(52% / 4);
+  position: relative;
+}
+.logoPartners > div > a {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: brown;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.logoSocial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoSocial > li{
+  padding: 0 8px;
+  list-style-type: none;
+}
